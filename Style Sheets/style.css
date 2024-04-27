@@ -1,7 +1,13 @@
+
 /* Body */
 body
 {
     background-image: url('../Images/background.png') !important;
+}
+
+.li-link:hover
+{
+    text-decoration: underline;
 }
 
 /* Background of the card */
@@ -24,4 +30,10 @@ body
 {
     display: flex !important;
     justify-content: space-between !important;
+}
+
+.logo
+{
+    animation: myAnimation 2s ease-in-out backwards;
+    animation-iteration-count: infinite
 }
