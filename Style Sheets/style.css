@@ -1,0 +1,27 @@
+/* Body */
+body
+{
+    background-image: url('../Images/background.png') !important;
+}
+
+/* Background of the card */
+.card-bg
+{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* For the alignment of the Card */
+.card-flex
+{
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+/* For the alignment of the Unordered List */
+.j-end
+{
+    display: flex !important;
+    justify-content: space-between !important;
+}
